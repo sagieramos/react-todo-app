@@ -11,6 +11,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "homepage": "https://sagieramos.github.io/react-todo-app",
   "dependencies": {
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
