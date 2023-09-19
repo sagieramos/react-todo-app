@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>To-DoList</b></h3>
+  <h3><b>To-Do List</b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -26,7 +26,7 @@
 
 # 📖 Fullstack Development <a name="To-Do List"></a>
 
-**Orgnised your time with to-do list** 
+**Organized your time with to-do list** 
 
 ## 🛠  Built With <a name="built-with"></a>
 - HTML
@@ -77,7 +77,7 @@ To run the project, execute the following command:
 
 
 ## 👥 Authors <a name="authors"></a>
-👤 ***Stanley Osagie Ramos**
+👤 **Stanley Osagie Ramos**
 - GitHub: [@sagieramos](https://github.com/sagieramos)
 - Twitter: [@sagieramos](https://twitter.com/sagieramos)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/sagieramos)
@@ -86,7 +86,16 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Improve the UI**
+- User-Friendly UI/UX:
+  - Continuously improve the user interface and user experience to make the app intuitive and user-friendly.
+- Local Storage Integration:
+  - Implement local storage to store todo items on the user's device. This allows users to retain their todo list even after closing or refreshing the page
+- Cloud Synchronization:
+  - Integrate with a cloud storage or backend service to sync todo items across devices and users.
+- User Authentication:
+  - Implement user authentication to allow users to create accounts and log in. This will enable personalized todo lists and synchronization between different users' accounts.
+- Online/Offline Status Handling:
+  - Implement functionality to detect the user's online/offline status. When offline, changes to the todo list can be stored locally and synced with the cloud once the user is online again
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,7 +104,7 @@ To run the project, execute the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/react-todo-app/issues/).
+Feel free to check the [issues page](https://github.com/react-todo-app/issues/2).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
