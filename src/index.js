@@ -1,11 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React, { Suspense } from 'react';
+import { createRoot } from 'react-dom/client';
 import './styles/app.scss';
 import TodosLogic from './components/TodosLogic';
 
 const rootElement = document.getElementById('root');
 
-const root = ReactDOM.createRoot(rootElement);
+const root = createRoot(rootElement);
 root.render(
-  <TodosLogic />,
+  <Suspense fallback={<div>Loading...</div>}>
+    <TodosLogic />
+  </Suspense>,
 );

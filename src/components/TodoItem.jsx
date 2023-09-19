@@ -20,7 +20,7 @@ const TodoItem = ({ itemProp, setTodos, delTodo }) => {
         checked={itemProp.completed}
         onChange={() => handleChange(itemProp.id)}
       />
-      <span className={itemProp.completed && 'strike-through'}>
+      <span className={itemProp.completed ? 'strike-through' : 'false'}>
         {itemProp.title}
       </span>
       <button type="button" onClick={() => delTodo(itemProp.id)}>Delete</button>
@@ -30,7 +30,7 @@ const TodoItem = ({ itemProp, setTodos, delTodo }) => {
 
 TodoItem.propTypes = {
   itemProp: PropTypes.shape({
-    id: PropTypes.number.isRequired,
+    id: PropTypes.string.isRequired,
     completed: PropTypes.bool.isRequired,
     title: PropTypes.string.isRequired,
   }).isRequired,
