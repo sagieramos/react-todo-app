@@ -1,1 +1,1 @@
-{"version":3,"file":"styles.css","mappings":"AAAA,KACI,c","sources":["webpack://react-todo-app/./src/styles/app.scss"],"sourcesContent":["body {\n    color: #ff2778;\n  }\n  "],"names":[],"sourceRoot":""}
+{"version":3,"file":"styles.css","mappings":"AAAA,KACE,c","sources":["webpack://react-todo-app/./src/styles/app.scss"],"sourcesContent":["body {\n  color: #ff2778;\n}\n"],"names":[],"sourceRoot":""}

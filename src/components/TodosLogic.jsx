@@ -36,7 +36,7 @@ const TodosLogic = () => {
   };
 
   return (
-    <div>
+    <div className="wrapper">
       <InputTodo addTodoItem={addTodoItem} />
       <TodosList todosProps={todos} setTodos={setTodos} delTodo={delTodo} />
     </div>
