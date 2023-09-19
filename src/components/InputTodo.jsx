@@ -28,9 +28,9 @@ const InputTodo = ({ addTodoItem }) => {
           value={title}
           onChange={handleChange}
         />
-        <button type="button">Submit</button>
+        <button type="submit">Submit</button>
       </form>
-      <span>{message}</span>
+      <span className="message">{message}</span>
     </>
   );
 };

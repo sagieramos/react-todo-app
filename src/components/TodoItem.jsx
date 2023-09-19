@@ -20,8 +20,10 @@ const TodoItem = ({ itemProp, setTodos, delTodo }) => {
         checked={itemProp.completed}
         onChange={() => handleChange(itemProp.id)}
       />
+      <span className={itemProp.completed && 'strike-through'}>
+        {itemProp.title}
+      </span>
       <button type="button" onClick={() => delTodo(itemProp.id)}>Delete</button>
-      {itemProp.title}
     </li>
   );
 };
